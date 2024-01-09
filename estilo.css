@@ -10,6 +10,10 @@ body.slide-0-0 {
 	background-size: 25%, 100%;
 	background-repeat: no-repeat, no-repeat;	
 }
+body.slide-0-0 h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
 body.slide-0-0 div.slides {
 	width: 100vw !important;
 	height: 100vh !important;
