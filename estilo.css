@@ -1,0 +1,42 @@
+:root {	
+	--r-link-color: #2525FF;
+	--fondo: #0808BC;
+}
+/* PORTADA */
+body.slide-0-0 {
+	background-color: var(--fondo);
+	background-image: url(img/logo.svg), url(img/decorativa-sf.png);
+	background-position: 5% 5%, right top;
+	background-size: 25%, 100%;
+	background-repeat: no-repeat, no-repeat;	
+}
+body.slide-0-0 div.slides {
+	width: 100vw !important;
+	height: 100vh !important;
+	inset: unset !important;
+	transform: none !important;
+}
+body.slide-0-0 div.slides section {
+	top: unset !important;
+	bottom: 5%;
+	left: 5%;
+}
+body.slide-0-0 section h2 a {
+	font-size: 6rem;
+}
+body.slide-0-0 section h2 a, 
+body.slide-0-0 section h2,
+body.slide-0-0 section h3 {	
+	color: white;
+	text-align: left;
+}
+/* END PORTADA */
+
+/* PPT */
+body:not(.slide-0-0) div.slide {	
+	background-image: url(img/logo.svg), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" fill="%230808BC"><rect width="1" height="1"/></svg>');
+	background-position: 95% 4%, 0% 0%;
+	background-size: 12%, 100% 13%;
+	background-repeat: no-repeat;
+}
+/* END PPT */
